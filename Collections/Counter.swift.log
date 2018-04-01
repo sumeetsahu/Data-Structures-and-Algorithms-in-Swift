@@ -1,0 +1,8 @@
+true
+true
+false
+(value: 2, flag: true)
+(value: 1, flag: true)
+(value: 0, flag: false)
+false
+(value: 0, flag: false)

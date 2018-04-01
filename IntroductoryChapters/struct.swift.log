@@ -1,0 +1,4 @@
+student(rollNo: 1, name: "johny")
+Student name :: johny
+student(rollNo: 2, name: "Ann")
+student(rollNo: 0, name: "")

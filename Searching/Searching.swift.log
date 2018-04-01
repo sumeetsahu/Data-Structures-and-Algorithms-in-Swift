@@ -1,0 +1,30 @@
+./Searching/Searching.swift:802:9: error: use of unresolved identifier 'getMax'
+                print(getMax(first))
+                      ^~~~~~
+Swift.IntMax:3:18: note: did you mean 'IntMax'?
+public typealias IntMax = Int64
+                 ^
+Swift.UIntMax:3:18: note: did you mean 'UIntMax'?
+public typealias UIntMax = UInt64
+                 ^
+./Searching/Searching.swift:803:9: error: use of unresolved identifier 'getMax'
+                print(getMax(second))
+                      ^~~~~~
+Swift.IntMax:3:18: note: did you mean 'IntMax'?
+public typealias IntMax = Int64
+                 ^
+Swift.UIntMax:3:18: note: did you mean 'UIntMax'?
+public typealias UIntMax = UInt64
+                 ^
+./Searching/Searching.swift:804:9: error: use of unresolved identifier 'getMax2'
+                print(getMax2(first))
+                      ^~~~~~~
+./Searching/Searching.swift:805:9: error: use of unresolved identifier 'getMax2'
+                print(getMax2(second))
+                      ^~~~~~~
+./Searching/Searching.swift:806:9: error: use of unresolved identifier 'getMax3'
+                print(getMax3(first,100))
+                      ^~~~~~~
+./Searching/Searching.swift:807:9: error: use of unresolved identifier 'getMax3'
+                print(getMax3(second,100))
+                      ^~~~~~~

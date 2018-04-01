@@ -1,0 +1,168 @@
+./LinkedLIst/DoublyCircularLIst.swift:48:17: error: use of unresolved identifier 'Node'
+                let newNode = Node(value)
+                              ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:49:6: error: use of unresolved identifier 'self'
+                if self.count == 0 {
+                   ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:50:4: error: use of unresolved identifier 'self'
+                        self.tail = newNode
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:51:4: error: use of unresolved identifier 'self'
+                        self.head = newNode
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:55:19: error: use of unresolved identifier 'self'
+                        newNode.next = self.head
+                                       ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:56:19: error: use of unresolved identifier 'self'
+                        newNode.prev = self.head!.prev
+                                       ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:57:4: error: use of unresolved identifier 'self'
+                        self.head!.prev = newNode
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:59:4: error: use of unresolved identifier 'self'
+                        self.head = newNode
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:61:3: error: use of unresolved identifier 'self'
+                self.count+=1 
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:65:17: error: use of unresolved identifier 'Node'
+                let newNode = Node(value)
+                              ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:66:6: error: use of unresolved identifier 'self'
+                if self.count == 0 {
+                   ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:67:4: error: use of unresolved identifier 'self'
+                        self.head = newNode
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:68:4: error: use of unresolved identifier 'self'
+                        self.tail = newNode
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:72:19: error: use of unresolved identifier 'self'
+                        newNode.next = self.tail!.next
+                                       ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:73:19: error: use of unresolved identifier 'self'
+                        newNode.prev = self.tail
+                                       ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:74:4: error: use of unresolved identifier 'self'
+                        self.tail!.next = newNode
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:76:4: error: use of unresolved identifier 'self'
+                        self.tail = newNode
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:78:3: error: use of unresolved identifier 'self'
+                self.count+=1 
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:82:6: error: use of unresolved identifier 'self'
+                if self.isEmpty() {
+                   ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:85:28: error: use of unresolved identifier 'self'
+                print("List size is ::", self.count)
+                                         ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:87:14: error: use of unresolved identifier 'self'
+                var temp = self.head
+                           ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:91:16: error: use of unresolved identifier 'self'
+                        if temp === self.head {
+                                    ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:99:14: error: use of unresolved identifier 'self'
+                var temp = self.head
+                           ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:100:6: error: use of unresolved identifier 'self'
+                if self.head == nil {
+                   ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:109:16: error: use of unresolved identifier 'self'
+                        if temp === self.head {
+                                    ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:117:3: error: use of unresolved identifier 'self'
+                self.head = nil
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:118:3: error: use of unresolved identifier 'self'
+                self.tail = nil
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:119:3: error: use of unresolved identifier 'self'
+                self.count = 0
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:123:6: error: use of unresolved identifier 'self'
+                if self.count == 0 {
+                   ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:128:15: error: use of unresolved identifier 'self'
+                let value = self.head!.value
+                            ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:129:3: error: use of unresolved identifier 'self'
+                self.count-=1 
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:131:6: error: use of unresolved identifier 'self'
+                if self.count == 0 {
+                   ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:132:4: error: use of unresolved identifier 'self'
+                        self.head = nil
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:133:4: error: use of unresolved identifier 'self'
+                        self.tail = nil
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:137:14: error: use of unresolved identifier 'self'
+                let next = self.head!.next
+                           ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:138:16: error: use of unresolved identifier 'self'
+                next!.prev = self.tail
+                             ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:139:3: error: use of unresolved identifier 'self'
+                self.tail!.next = next
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:140:3: error: use of unresolved identifier 'self'
+                self.head = next
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:145:6: error: use of unresolved identifier 'self'
+                if self.count == 0 {
+                   ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:150:15: error: use of unresolved identifier 'self'
+                let value = self.tail!.value
+                            ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:151:3: error: use of unresolved identifier 'self'
+                self.count-=1 
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:152:6: error: use of unresolved identifier 'self'
+                if self.count == 0 {
+                   ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:153:4: error: use of unresolved identifier 'self'
+                        self.head = nil
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:154:4: error: use of unresolved identifier 'self'
+                        self.tail = nil
+                        ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:158:14: error: use of unresolved identifier 'self'
+                let prev = self.tail!.prev
+                           ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:159:16: error: use of unresolved identifier 'self'
+                prev!.next = self.head
+                             ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:160:3: error: use of unresolved identifier 'self'
+                self.head!.prev = prev
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:161:3: error: use of unresolved identifier 'self'
+                self.tail = prev
+                ^~~~
+./LinkedLIst/DoublyCircularLIst.swift:164:1: error: extraneous '}' at top level
+}
+^
+./LinkedLIst/DoublyCircularLIst.swift:167:1: error: value of type 'DoublyCircularLinkedList' has no member 'addHead'
+ll.addHead(value:1)
+^~ ~~~~~~~
+./LinkedLIst/DoublyCircularLIst.swift:168:1: error: value of type 'DoublyCircularLinkedList' has no member 'addHead'
+ll.addHead(value:2)
+^~ ~~~~~~~
+./LinkedLIst/DoublyCircularLIst.swift:169:1: error: value of type 'DoublyCircularLinkedList' has no member 'addHead'
+ll.addHead(value:3)
+^~ ~~~~~~~
+./LinkedLIst/DoublyCircularLIst.swift:170:1: error: value of type 'DoublyCircularLinkedList' has no member 'addHead'
+ll.addHead(value:1)
+^~ ~~~~~~~
+./LinkedLIst/DoublyCircularLIst.swift:171:1: error: value of type 'DoublyCircularLinkedList' has no member 'addHead'
+ll.addHead(value:2)
+^~ ~~~~~~~
+./LinkedLIst/DoublyCircularLIst.swift:172:1: error: value of type 'DoublyCircularLinkedList' has no member 'addHead'
+ll.addHead(value:3)
+^~ ~~~~~~~
+./LinkedLIst/DoublyCircularLIst.swift:173:1: error: value of type 'DoublyCircularLinkedList' has no member 'display'
+ll.display()
+^~ ~~~~~~~

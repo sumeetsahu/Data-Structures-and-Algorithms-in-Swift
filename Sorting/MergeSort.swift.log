@@ -1,0 +1,6 @@
+./Sorting/MergeSort.swift:52:27: error: 'rand()' is unavailable in Swift: Use arc4random instead.
+        result.append(Int(rand() % 100))
+                          ^~~~
+Darwin.rand:2:13: note: 'rand()' has been explicitly marked unavailable here
+public func rand() -> Int32
+            ^

@@ -1,0 +1,120 @@
+./Graph/Graph.swift:233:15: error: use of unresolved identifier 'self'
+                let count = self.count
+                            ^~~~
+./Graph/Graph.swift:236:24: error: use of undeclared type 'Edge'
+                let que = PQueue<Int,Edge>(isMinHeap: true)
+                                     ^~~~
+./Graph/Graph.swift:239:14: error: use of undeclared type 'Edge'
+                var edge : Edge = Edge(source : source, destination : source, cost : 0, next : nil)
+                           ^~~~
+./Graph/Graph.swift:249:15: error: use of unresolved identifier 'self'
+                        var list = self.VertexList[edge.destination]
+                                   ^~~~
+./Graph/Graph.swift:252:13: error: use of unresolved identifier 'Edge'
+                                        edge = Edge(source : curr.source, 
+                                               ^~~~
+./Graph/Graph.swift:239:7: note: did you mean 'edge'?
+                var edge : Edge = Edge(source : source, destination : source, cost : 0, next : nil)
+                    ^
+./Graph/Graph.swift:273:15: error: use of unresolved identifier 'self'
+                let count = self.count
+                            ^~~~
+./Graph/Graph.swift:276:24: error: use of undeclared type 'Edge'
+                let que = PQueue<Int,Edge>(isMinHeap : true)
+                                     ^~~~
+./Graph/Graph.swift:286:14: error: use of unresolved identifier 'Edge'
+                var edge = Edge(source : source, destination : source,  cost : 0, next : nil)
+                           ^~~~
+./Graph/Graph.swift:296:15: error: use of unresolved identifier 'self'
+                        var list = self.VertexList[edge.destination]
+                                   ^~~~
+./Graph/Graph.swift:299:14: error: use of unresolved identifier 'Edge'
+                                        edge =  Edge(source : curr.source, 
+                                                ^~~~
+./Graph/Graph.swift:286:7: note: did you mean 'edge'?
+                var edge = Edge(source : source, destination : source,  cost : 0, next : nil)
+                    ^
+./Graph/Graph.swift:321:16: error: use of unresolved identifier 'self'
+                let count =  self.count
+                             ^~~~
+./Graph/Graph.swift:328:6: error: use of unresolved identifier 'self'
+                                 self.topologicalSortDFS(index : i, 
+                                 ^~~~
+./Graph/Graph.swift:340:14: error: use of unresolved identifier 'self'
+                var list = self.VertexList[index]
+                           ^~~~
+./Graph/Graph.swift:344:6: error: use of unresolved identifier 'self'
+                                 self.topologicalSortDFS(index : curr.destination, 
+                                 ^~~~
+./Graph/Graph.swift:354:15: error: use of unresolved identifier 'self'
+                let count = self.count
+                            ^~~~
+./Graph/Graph.swift:357:3: error: use of unresolved identifier 'self'
+                self.dfsRec(index : source, visited : &visited)
+                ^~~~
+./Graph/Graph.swift:362:15: error: use of unresolved identifier 'self'
+                let count = self.count
+                            ^~~~
+./Graph/Graph.swift:368:6: error: use of unresolved identifier 'self'
+                                 self.dfsRec(index : i, visited : &visited)
+                                 ^~~~
+./Graph/Graph.swift:376:14: error: use of unresolved identifier 'self'
+                var list = self.VertexList[index]
+                           ^~~~
+./Graph/Graph.swift:381:6: error: use of unresolved identifier 'self'
+                                 self.dfsRec(index : curr.destination, 
+                                 ^~~~
+./Graph/Graph.swift:389:15: error: use of unresolved identifier 'self'
+                let count = self.count
+                            ^~~~
+./Graph/Graph.swift:396:15: error: use of unresolved identifier 'self'
+                        var list = self.VertexList[temp!]
+                                   ^~~~
+./Graph/Graph.swift:408:15: error: use of unresolved identifier 'self'
+                let count = self.count
+                            ^~~~
+./Graph/Graph.swift:413:6: error: use of unresolved identifier 'self'
+                                 self.bfsQueue(index : i, visited : &visited)
+                                 ^~~~
+./Graph/Graph.swift:427:15: error: use of unresolved identifier 'self'
+                        var list = self.VertexList[temp!]
+                                   ^~~~
+./Graph/Graph.swift:438:15: error: use of unresolved identifier 'self'
+                let count = self.count
+                            ^~~~
+./Graph/Graph.swift:441:3: error: use of unresolved identifier 'self'
+                self.dfsRec(index : 0, visited : &visited)
+                ^~~~
+./Graph/Graph.swift:453:15: error: use of unresolved identifier 'self'
+                let count = self.count
+                            ^~~~
+./Graph/Graph.swift:462:15: error: use of unresolved identifier 'self'
+                        var list = self.VertexList[currIndex]
+                                   ^~~~
+./Graph/Graph.swift:480:15: error: use of unresolved identifier 'self'
+                let count = self.count
+                            ^~~~
+./Graph/Graph.swift:491:16: error: use of unresolved identifier 'self'
+                                var head = self.VertexList[j]
+                                           ^~~~
+./Graph/Graph.swift:512:1: error: extraneous '}' at top level
+}
+^
+./Graph/Graph.swift:528:1: error: value of type 'Graph' has no member 'dijkstra'
+g.dijkstra(source:1)
+^ ~~~~~~~~
+./Graph/Graph.swift:529:1: error: value of type 'Graph' has no member 'Prims'
+g.Prims()
+^ ~~~~~
+./Graph/Graph.swift:559:8: error: value of type 'Graph' has no member 'pathExist'
+        print(g.pathExist(source : 1, destination : 0))
+              ^ ~~~~~~~~~
+./Graph/Graph.swift:560:8: error: value of type 'Graph' has no member 'pathExist'
+        print(g.pathExist(source : 0, destination : 1))
+              ^ ~~~~~~~~~
+./Graph/Graph.swift:561:8: error: value of type 'Graph' has no member 'pathExist'
+        print(g.pathExist(source : 1, destination : 2))
+              ^ ~~~~~~~~~
+./Graph/Graph.swift:568:2: error: value of type 'Graph' has no member 'bellmanFordshortestPath'
+        g.bellmanFordshortestPath(source:1)
+        ^ ~~~~~~~~~~~~~~~~~~~~~~~

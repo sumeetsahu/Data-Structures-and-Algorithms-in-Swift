@@ -1,0 +1,69 @@
+./String/Trie.swift:19:66: error: use of undeclared type 'Node'
+func insertUtil(node : Node?, str : [Character], index : Int) -> Node {
+                                                                 ^~~~
+./String/Trie.swift:19:24: error: use of undeclared type 'Node'
+func insertUtil(node : Node?, str : [Character], index : Int) -> Node {
+                       ^~~~
+./String/Trie.swift:45:24: error: use of undeclared type 'Node'
+func removeUtil(curr : Node?, str : [Character], index : Int) {
+                       ^~~~
+./String/Trie.swift:67:22: error: use of undeclared type 'Node'
+func findUtil(curr : Node?, str : [Character], index : Int) -> Bool {
+                     ^~~~
+./String/Trie.swift:16:2: error: use of unresolved identifier 'self'
+        self.root = self.insertUtil(node : self.root, str : str, index : 0)
+        ^~~~
+./String/Trie.swift:16:14: error: use of unresolved identifier 'self'
+        self.root = self.insertUtil(node : self.root, str : str, index : 0)
+                    ^~~~
+./String/Trie.swift:16:37: error: use of unresolved identifier 'self'
+        self.root = self.insertUtil(node : self.root, str : str, index : 0)
+                                           ^~~~
+./String/Trie.swift:20:13: error: use of undeclared type 'Node'
+        var curr : Node
+                   ^~~~
+./String/Trie.swift:22:10: error: use of unresolved identifier 'Node'
+                curr = Node()
+                       ^~~~
+./String/Trie.swift:19:17: note: did you mean 'node'?
+func insertUtil(node : Node?, str : [Character], index : Int) -> Node {
+                ^
+./String/Trie.swift:31:3: error: use of unresolved identifier 'self'
+                self.insertUtil(node : curr.children[str[index]], str : str, index : index+1)
+                ^~~~
+./String/Trie.swift:42:2: error: use of unresolved identifier 'self'
+        self.removeUtil(curr : self.root, str : str,  index : 0)
+        ^~~~
+./String/Trie.swift:42:25: error: use of unresolved identifier 'self'
+        self.removeUtil(curr : self.root, str : str,  index : 0)
+                               ^~~~
+./String/Trie.swift:56:2: error: use of unresolved identifier 'self'
+        self.removeUtil(curr : curr.children[str[index]], str : str, index : index+1)
+        ^~~~
+./String/Trie.swift:64:9: error: use of unresolved identifier 'self'
+        return self.findUtil(curr : self.root, str : str, index : 0)
+               ^~~~
+./String/Trie.swift:64:30: error: use of unresolved identifier 'self'
+        return self.findUtil(curr : self.root, str : str, index : 0)
+                                    ^~~~
+./String/Trie.swift:76:1: error: extraneous '}' at top level
+}
+^
+./String/Trie.swift:84:1: error: value of type 'Trie' has no member 'insert'
+t.insert(a)
+^ ~~~~~~
+./String/Trie.swift:85:1: error: value of type 'Trie' has no member 'insert'
+t.insert(d)
+^ ~~~~~~
+./String/Trie.swift:86:7: error: value of type 'Trie' has no member 'find'
+print(t.find(a))
+      ^ ~~~~
+./String/Trie.swift:87:7: error: value of type 'Trie' has no member 'find'
+print(t.find(b))
+      ^ ~~~~
+./String/Trie.swift:88:7: error: value of type 'Trie' has no member 'find'
+print(t.find(c))
+      ^ ~~~~
+./String/Trie.swift:89:7: error: value of type 'Trie' has no member 'find'
+print(t.find(d))
+      ^ ~~~~

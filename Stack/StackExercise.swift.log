@@ -1,0 +1,30 @@
+./Stack/StackExercise.swift:119:5: error: invalid redeclaration of 'expn'
+let expn = "6 5 2 3 + 8 * + 3 + *"
+    ^
+./Stack/StackExercise.swift:62:5: note: 'expn' previously declared here
+var expn = "{()}[]"
+    ^
+./Stack/StackExercise.swift:120:5: error: invalid redeclaration of 'value'
+let value = postfixEvaluate(expn: expn)
+    ^
+./Stack/StackExercise.swift:63:5: note: 'value' previously declared here
+var value = isBalancedParenthesis(expn : expn)
+    ^
+./Stack/StackExercise.swift:186:5: error: invalid redeclaration of 'expn'
+let expn = "10+((3))*5/(16-4)"
+    ^
+./Stack/StackExercise.swift:62:5: note: 'expn' previously declared here
+var expn = "{()}[]"
+    ^
+./Stack/StackExercise.swift:187:5: error: invalid redeclaration of 'value'
+let value = infixToPostfix(expn : expn)
+    ^
+./Stack/StackExercise.swift:63:5: note: 'value' previously declared here
+var value = isBalancedParenthesis(expn : expn)
+    ^
+./Stack/StackExercise.swift:289:5: error: invalid redeclaration of 'stock'
+let stock = [4, 6, 8, 12, 2, 1, 7, 8]
+    ^
+./Stack/StackExercise.swift:230:5: note: 'stock' previously declared here
+let stock = [4, 6, 8, 12, 2, 1, 7, 8]
+    ^

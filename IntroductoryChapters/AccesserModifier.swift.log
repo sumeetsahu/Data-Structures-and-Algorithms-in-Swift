@@ -1,0 +1,18 @@
+./IntroductoryChapters/AccesserModifier.swift:10:12: error: use of undeclared type 'MyInt'
+var data : MyInt = 1
+           ^~~~~
+./IntroductoryChapters/AccesserModifier.swift:6:2: error: '*' is not a prefix unary operator
+        *data = *data + 1
+        ^
+./IntroductoryChapters/AccesserModifier.swift:6:10: error: '*' is not a prefix unary operator
+        *data = *data + 1
+                ^
+./IntroductoryChapters/AccesserModifier.swift:11:1: error: use of unresolved identifier 'println'
+println("value before increment1() call :", data)
+^~~~~~~
+./IntroductoryChapters/AccesserModifier.swift:13:1: error: use of unresolved identifier 'println'
+println("value after increment1() call :", data)
+^~~~~~~
+./IntroductoryChapters/AccesserModifier.swift:15:1: error: use of unresolved identifier 'println'
+println("value after increment2() call :", data)
+^~~~~~~

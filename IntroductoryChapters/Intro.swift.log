@@ -1,0 +1,21 @@
+./IntroductoryChapters/Intro.swift:53:18: error: use of unresolved identifier 'GCD'
+print("GCD 5 3 \(GCD(5,3))")
+                 ^~~
+./IntroductoryChapters/Intro.swift:221:7: error: class 'Student' has no initializers
+class Student  {
+      ^
+./IntroductoryChapters/Intro.swift:222:6: note: stored property 'rollNo' without initial value prevents synthesized initializers
+        var rollNo : Int
+            ^
+                         = 0
+./IntroductoryChapters/Intro.swift:223:6: note: stored property 'firstName' without initial value prevents synthesized initializers
+        var firstName : String
+            ^
+                               = ""
+./IntroductoryChapters/Intro.swift:224:6: note: stored property 'lastName' without initial value prevents synthesized initializers
+        var lastName : String
+            ^
+                              = ""
+./IntroductoryChapters/Intro.swift:239:15: error: 'Student' cannot be constructed because it has no accessible initializers
+var ptrStud = Student(rollNo:1, firstName:"hemant",lastName:"jain")
+              ^

@@ -1,0 +1,5 @@
+Search results for apple, banana, grapes and mango :
+apple  Found  true
+banana  Found  true
+mango  Found  true
+grapes  Not Found  false

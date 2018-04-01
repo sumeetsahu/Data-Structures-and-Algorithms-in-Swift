@@ -1,0 +1,17 @@
+Search results for apple, banana, grapes and mango :
+find apple Return true
+true
+find banana Return true
+true
+find banan Return false
+false
+find applkhjkhkj Return false
+false
+find grapes Return false
+false
+find mango Return true
+true
+frequency returned ::  1
+frequency returned ::  1
+frequency returned ::  1
+frequency returned ::  0

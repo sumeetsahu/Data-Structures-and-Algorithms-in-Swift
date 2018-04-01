@@ -1,0 +1,83 @@
+./IntroductoryChapters/ParkingLot.swift:1:5: error: consecutive statements on a line must be separated by ';'
+type parkingLot struct {
+    ^
+    ;
+./IntroductoryChapters/ParkingLot.swift:1:16: error: consecutive statements on a line must be separated by ';'
+type parkingLot struct {
+               ^
+               ;
+./IntroductoryChapters/ParkingLot.swift:1:24: error: expected identifier in struct declaration
+type parkingLot struct {
+                       ^
+./IntroductoryChapters/ParkingLot.swift:1:24: error: top-level statement cannot begin with a closure expression
+type parkingLot struct {
+                       ^
+./IntroductoryChapters/ParkingLot.swift:2:15: error: consecutive statements on a line must be separated by ';'
+        unreservedMap : [Space]
+                     ^
+                     ;
+./IntroductoryChapters/ParkingLot.swift:2:16: error: expected expression
+        unreservedMap : [Space]
+                      ^
+./IntroductoryChapters/ParkingLot.swift:5:20: error: unnamed parameters must be written with the empty name '_'
+        func reserveSpace(Space) bool {
+                          ^
+                          _: 
+./IntroductoryChapters/ParkingLot.swift:5:26: error: consecutive statements on a line must be separated by ';'
+        func reserveSpace(Space) bool {
+                                ^
+                                ;
+./IntroductoryChapters/ParkingLot.swift:12:22: error: unnamed parameters must be written with the empty name '_'
+        func unreserveSpace(Space) int {
+                            ^
+                            _: 
+./IntroductoryChapters/ParkingLot.swift:12:28: error: consecutive statements on a line must be separated by ';'
+        func unreserveSpace(Space) int {
+                                  ^
+                                  ;
+./IntroductoryChapters/ParkingLot.swift:1:1: error: expression type '(_) -> _' is ambiguous without more context
+type parkingLot struct {
+^~~~
+./IntroductoryChapters/ParkingLot.swift:1:6: error: use of unresolved identifier 'parkingLot'
+type parkingLot struct {
+     ^~~~~~~~~~
+./IntroductoryChapters/ParkingLot.swift:2:2: error: use of unresolved identifier 'unreservedMap'
+        unreservedMap : [Space]
+        ^~~~~~~~~~~~~
+./IntroductoryChapters/ParkingLot.swift:12:7: note: did you mean 'unreserveSpace'?
+        func unreserveSpace(Space) int {
+             ^
+./IntroductoryChapters/ParkingLot.swift:5:7: error: expected '{' in body of function declaration
+        func reserveSpace(Space) bool {
+             ^
+./IntroductoryChapters/ParkingLot.swift:5:20: error: use of undeclared type 'Space'
+        func reserveSpace(Space) bool {
+                          ^~~~~
+./IntroductoryChapters/ParkingLot.swift:5:27: error: use of unresolved identifier 'bool'
+        func reserveSpace(Space) bool {
+                                 ^~~~
+Swift.Bool:48:15: note: did you mean 'Bool'?
+public struct Bool {
+              ^
+Swift.CBool:2:18: note: did you mean 'CBool'?
+public typealias CBool = Bool
+                 ^
+./IntroductoryChapters/ParkingLot.swift:12:7: error: expected '{' in body of function declaration
+        func unreserveSpace(Space) int {
+             ^
+./IntroductoryChapters/ParkingLot.swift:12:22: error: use of undeclared type 'Space'
+        func unreserveSpace(Space) int {
+                            ^~~~~
+./IntroductoryChapters/ParkingLot.swift:12:29: error: use of unresolved identifier 'int'
+        func unreserveSpace(Space) int {
+                                   ^~~
+Swift.Int:5:15: note: did you mean 'Int'?
+public struct Int : FixedWidthInteger, SignedInteger, _ExpressibleByBuiltinIntegerLiteral {
+              ^
+./IntroductoryChapters/ParkingLot.swift:1:24: error: closure expression is unused
+type parkingLot struct {
+                       ^
+./IntroductoryChapters/ParkingLot.swift:1:24: note: did you mean to use a 'do' statement?
+type parkingLot struct {
+                       ^
+                       do 
